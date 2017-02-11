@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+p {
+  display: inline-block;
+  padding: 15px;
+  width: 70%;
+  margin-left: 5%;
+}
+section {
+  display: inline-block;
+  color: #5e5e5e;
+  width: 19%;
+  visibility: hidden;
+}
+i {
+  padding: 10% 0;
+}
+  i:hover{
+    cursor: pointer;
+  }
+div {
+  width: 80%;
+  margin-left: 15%;
+  position: relative;
+}
+div:hover>section{
+  visibility: visible;
+}
+.text {
+  font-family: fantasy;
+  font-size: 28px;
+  color: #5e5e5e;
+  padding: 5px;
+}
+.author {
+  font-size: 18px;
+  display: block;
+  text-align: right;
+  color: #5e5e5e;
+}
